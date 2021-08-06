@@ -1,0 +1,162 @@
+[
+    {
+        "section": 1,
+        "has_multiple_sections": "true",
+        "has_membership_type": "Gold",
+        "seat_price": 1500,
+        "seat_map": [
+            {
+                "seat_label": " ",
+                "layout": "__________________________"
+            },
+            {
+                "seat_label": "Z",
+                "layout": "________________eeeeeeeeeeeeeeeeeeeeeeeeee_____________________"
+            },
+            {
+                "seat_label": "Y",
+                "layout": "_______________eeeeeeeeeeeeee_eeeeeeeeeeeeee___________________"
+            },
+            {
+                "seat_label": "X",
+                "layout": "___________ee__eeeeeeeeeeeeee_eeeeeeeeeeeeee__eee______________"
+            },
+            {
+                "seat_label": "W",
+                "layout": "___________ee__eeeeeeeeeeeeee_eeeeeeeeeeeeeee_eee______________"
+            }
+        ]
+    },
+    {
+        "section": 2,
+        "has_multiple_sections": "true",
+        "has_membership_type": "Gold",
+        "seat_price": 2000,
+        "seat_map": [
+            {
+                "seat_label": "V",
+                "layout": "__________eee__eeeeeeeeeeeeee_eeeeeeeeeeeeee___eee______________"
+            },
+            {
+                "seat_label": "U",
+                "layout": "________eeeee___eeeeeeeeeeeee_eeeeeeeeeeeeee___eeeee____________"
+            },
+            {
+                "seat_label": "T",
+                "layout": "_______eeeeee___eeeeeeeeeeeee_eeeeeeeeeeeeee___eeeeeee__________"
+            },
+            {
+                "seat_label": "S",
+                "layout": "_____eeeeeeee___eeeeeeeeeeee___eeeeeeeeeeeee___eeeeeeee_________"
+            },
+            {
+                "seat_label": "R",
+                "layout": "____eeeeeeeee___eeeeeeeeeeee___eeeeeeeeeeeee___eeeeeeeee________"
+            },
+            {
+                "seat_label": "Q",
+                "layout": "____eeeeeeeee___eeeeeeeeeeee___eeeeeeeeeeeee___eeeeeeeeee_______"
+            }
+        ]
+    },
+    {
+        "section": 3,
+        "has_multiple_sections": "true",
+        "has_membership_type": "Gold",
+        "seat_price": 2000,
+        "seat_map": [
+            {
+                "seat_label": "P",
+                "layout": "___eeeeeeeeee___eeeeeeeeeeee___eeeeeeeeeeee____eeeeeeeeeeee_____"
+            },
+            {
+                "seat_label": "O",
+                "layout": "_eeeeeeeee__eeeeeeeeee___________eeeeeeeeee__eeeeeeeee________"
+            },
+            {
+                "seat_label": "N",
+                "layout": "_eeeeeeeee__eeeeeeeeee___________eeeeeeeeee__eeeeeeeee________"
+            },
+            {
+                "seat_label": "M",
+                "layout": "__eeeeeeeee__eeeeeeeee___________eeeeeeeee__eeeeeeeeee________"
+            },
+            {
+                "seat_label": "L",
+                "layout": "____eeeeeeeeee_eeeeeeeee________eeeeeeeee__eeeeeeeeee________"
+            },
+            {
+                "seat_label": "K",
+                "layout": "_____eeeeeeeeee_eeeeeeee________eeeeeeee__eeeeeeeeee________"
+            },
+            {
+                "seat_label": "J",
+                "layout": "_____eeeeeeeeee_eeeeeeee________eeeeeeee__eeeeeeeeee________"
+            },
+            {
+                "seat_label": "I",
+                "layout": "______eeeeeeeeee_eeeeeee________eeeeeee__eeeeeeeeee________"
+            }
+        ]
+    },
+    {
+        "section": 4,
+        "has_multiple_sections": "true",
+        "has_membership_type": "Platinum",
+        "seat_price": 2500,
+        "seat_map": [
+            {
+                "seat_label": "H",
+                "layout": "______eeeeeeeeee_eeeeeee________eeeeeee__eeeeeeeeee________"
+            },
+            {
+                "seat_label": "G",
+                "layout": "______eeeeeeeeeeee__eeeeeeeeeeeeeeeee___eeeeeeeeeeee_________"
+            },
+            {
+                "seat_label": " ",
+                "layout": "_____________________________________________"
+            },
+            {
+                "seat_label": "F",
+                "layout": "______eeeeeeeeeeee__eeeeeeeeeeeeeeee___eeeeeeeeeeee__________"
+            },
+            {
+                "seat_label": "E",
+                "layout": "______eeeeeeeeeeee__eeeeeeeeeeeeeee____eeeeeeeeeeee__________"
+            },
+            {
+                "seat_label": "D",
+                "layout": "______eeeeeeeeeeee___eeeeeeeeeeeeee____eeeeeeeeeeee__________"
+            },
+            {
+                "seat_label": "C",
+                "layout": "______eeeeeeeeeeee___eeeeeeeeeeeee______eeeeeeeeeeee__________"
+            },
+            {
+                "seat_label": "B",
+                "layout": "______eeeeeeeeeeee___eeeeeeeeeeeee______eeeeeeeeeeee__________"
+            },
+            {
+                "seat_label": "A",
+                "layout": "_______eeeeeeeeeeee__eeeeeeeeeeee_______eeeeeeeeeeee__________"
+            },
+            {
+                "seat_label": "BB",
+                "layout": "_______eeeeeeeeeeee__eeeeeeeeeee________eeeeeeeeeeee____________"
+            }
+        ]
+    },
+    {
+        "section": 5,
+        "has_multiple_sections": "true",
+        "has_membership_type": "Platinum",
+        "seat_price": 3500,
+        "seat_map": [
+            {
+                "seat_label": "AA",
+                "layout": "_______eeeeeeeeeeee__eeeeeeeeeee________eeeeeeeeeeee_____________"
+            }
+        ]
+    }
+]
