@@ -1,4 +1,5 @@
 import React from 'react';
+import SeatChartComponent from '../seatchart/seatchart';
 import './layout.scss';
 
 const Layout: React.FC = () => {
@@ -6,6 +7,7 @@ const Layout: React.FC = () => {
   return (
         <div className="seatChartLayout">
             <h1>{title}</h1>
+            <SeatChartComponent restrictSelectionForSection={[]} />
         </div>
   );
 };

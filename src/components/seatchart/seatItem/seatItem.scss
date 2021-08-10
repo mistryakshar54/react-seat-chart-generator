@@ -1,0 +1,50 @@
+.seat-item
+{
+    height: 30px;
+    width: 30px;
+    line-height: 25px;
+    margin: 5px;
+    border-radius: 7px;
+    font-size: 14px;
+    text-align: center;
+}
+
+.seat-available
+{
+    color: #777777;
+    background-color: #fefefe;
+    font-weight: bolder;
+    border: 1px solid #777777;
+}
+.seat-available:hover
+{
+    color: #777777;
+    background-color: #fefefe;
+    border: 1px solid #777777;
+    cursor: pointer;
+}
+
+.seat-unavailable
+{
+    color: white;
+    background-color: black;
+    font-weight: bolder;
+    border: 1px solid black;
+}
+
+.seat-gap
+{
+    color: white;
+    background-color: white;
+    border: 0;
+}
+
+.seat-selected
+{
+    color: white;
+    font-weight: bolder;
+    color: white;
+    background-color: #777777;
+    border: 1px solid #777777;
+
+}

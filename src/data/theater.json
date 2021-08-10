@@ -1,160 +1,146 @@
 [
     {
-        "section": 1,
-        "has_multiple_sections": "true",
-        "has_membership_type": "Gold",
-        "seat_price": 1500,
-        "seat_map": [
+        "sectionTitle": "W-Z",
+        "seatPrice": 1500,
+        "seatMap": [
             {
-                "seat_label": " ",
-                "layout": "__________________________"
-            },
-            {
-                "seat_label": "Z",
+                "seatLabel": "Z",
                 "layout": "________________eeeeeeeeeeeeeeeeeeeeeeeeee_____________________"
             },
             {
-                "seat_label": "Y",
+                "seatLabel": "Y",
                 "layout": "_______________eeeeeeeeeeeeee_eeeeeeeeeeeeee___________________"
             },
             {
-                "seat_label": "X",
+                "seatLabel": "X",
                 "layout": "___________ee__eeeeeeeeeeeeee_eeeeeeeeeeeeee__eee______________"
             },
             {
-                "seat_label": "W",
+                "seatLabel": "W",
                 "layout": "___________ee__eeeeeeeeeeeeee_eeeeeeeeeeeeeee_eee______________"
             }
         ]
     },
     {
-        "section": 2,
-        "has_multiple_sections": "true",
-        "has_membership_type": "Gold",
-        "seat_price": 2000,
-        "seat_map": [
+        "sectionTitle": "Q-V",
+        "seatPrice": 2000,
+        "seatMap": [
             {
-                "seat_label": "V",
+                "seatLabel": "V",
                 "layout": "__________eee__eeeeeeeeeeeeee_eeeeeeeeeeeeee___eee______________"
             },
             {
-                "seat_label": "U",
+                "seatLabel": "U",
                 "layout": "________eeeee___eeeeeeeeeeeee_eeeeeeeeeeeeee___eeeee____________"
             },
             {
-                "seat_label": "T",
+                "seatLabel": "T",
                 "layout": "_______eeeeee___eeeeeeeeeeeee_eeeeeeeeeeeeee___eeeeeee__________"
             },
             {
-                "seat_label": "S",
+                "seatLabel": "S",
                 "layout": "_____eeeeeeee___eeeeeeeeeeee___eeeeeeeeeeeee___eeeeeeee_________"
             },
             {
-                "seat_label": "R",
+                "seatLabel": "R",
                 "layout": "____eeeeeeeee___eeeeeeeeeeee___eeeeeeeeeeeee___eeeeeeeee________"
             },
             {
-                "seat_label": "Q",
+                "seatLabel": "Q",
                 "layout": "____eeeeeeeee___eeeeeeeeeeee___eeeeeeeeeeeee___eeeeeeeeee_______"
             }
         ]
     },
     {
-        "section": 3,
-        "has_multiple_sections": "true",
-        "has_membership_type": "Gold",
-        "seat_price": 2000,
-        "seat_map": [
+        "sectionTitle": "I-P",
+        "seatPrice": 2000,
+        "seatMap": [
             {
-                "seat_label": "P",
+                "seatLabel": "P",
                 "layout": "___eeeeeeeeee___eeeeeeeeeeee___eeeeeeeeeeee____eeeeeeeeeeee_____"
             },
             {
-                "seat_label": "O",
+                "seatLabel": "O",
                 "layout": "_eeeeeeeee__eeeeeeeeee___________eeeeeeeeee__eeeeeeeee________"
             },
             {
-                "seat_label": "N",
+                "seatLabel": "N",
                 "layout": "_eeeeeeeee__eeeeeeeeee___________eeeeeeeeee__eeeeeeeee________"
             },
             {
-                "seat_label": "M",
+                "seatLabel": "M",
                 "layout": "__eeeeeeeee__eeeeeeeee___________eeeeeeeee__eeeeeeeeee________"
             },
             {
-                "seat_label": "L",
+                "seatLabel": "L",
                 "layout": "____eeeeeeeeee_eeeeeeeee________eeeeeeeee__eeeeeeeeee________"
             },
             {
-                "seat_label": "K",
+                "seatLabel": "K",
                 "layout": "_____eeeeeeeeee_eeeeeeee________eeeeeeee__eeeeeeeeee________"
             },
             {
-                "seat_label": "J",
+                "seatLabel": "J",
                 "layout": "_____eeeeeeeeee_eeeeeeee________eeeeeeee__eeeeeeeeee________"
             },
             {
-                "seat_label": "I",
+                "seatLabel": "I",
                 "layout": "______eeeeeeeeee_eeeeeee________eeeeeee__eeeeeeeeee________"
             }
         ]
     },
     {
-        "section": 4,
-        "has_multiple_sections": "true",
-        "has_membership_type": "Platinum",
-        "seat_price": 2500,
-        "seat_map": [
+        "sectionTitle": "BB-H",
+        "seatPrice": 2500,
+        "seatMap": [
             {
-                "seat_label": "H",
+                "seatLabel": "H",
                 "layout": "______eeeeeeeeee_eeeeeee________eeeeeee__eeeeeeeeee________"
             },
             {
-                "seat_label": "G",
+                "seatLabel": "G",
                 "layout": "______eeeeeeeeeeee__eeeeeeeeeeeeeeeee___eeeeeeeeeeee_________"
             },
             {
-                "seat_label": " ",
+                "seatLabel": " ",
                 "layout": "_____________________________________________"
             },
             {
-                "seat_label": "F",
+                "seatLabel": "F",
                 "layout": "______eeeeeeeeeeee__eeeeeeeeeeeeeeee___eeeeeeeeeeee__________"
             },
             {
-                "seat_label": "E",
+                "seatLabel": "E",
                 "layout": "______eeeeeeeeeeee__eeeeeeeeeeeeeee____eeeeeeeeeeee__________"
             },
             {
-                "seat_label": "D",
+                "seatLabel": "D",
                 "layout": "______eeeeeeeeeeee___eeeeeeeeeeeeee____eeeeeeeeeeee__________"
             },
             {
-                "seat_label": "C",
+                "seatLabel": "C",
                 "layout": "______eeeeeeeeeeee___eeeeeeeeeeeee______eeeeeeeeeeee__________"
             },
             {
-                "seat_label": "B",
+                "seatLabel": "B",
                 "layout": "______eeeeeeeeeeee___eeeeeeeeeeeee______eeeeeeeeeeee__________"
             },
             {
-                "seat_label": "A",
+                "seatLabel": "A",
                 "layout": "_______eeeeeeeeeeee__eeeeeeeeeeee_______eeeeeeeeeeee__________"
             },
             {
-                "seat_label": "BB",
+                "seatLabel": "BB",
                 "layout": "_______eeeeeeeeeeee__eeeeeeeeeee________eeeeeeeeeeee____________"
             }
         ]
     },
     {
-        "section": 5,
-        "has_multiple_sections": "true",
-        "has_membership_type": "Platinum",
-        "seat_price": 3500,
-        "seat_map": [
+        "sectionTitle": "AA",
+        "seatPrice": 3500,
+        "seatMap": [
             {
-                "seat_label": "AA",
+                "seatLabel": "AA",
                 "layout": "_______eeeeeeeeeeee__eeeeeeeeeee________eeeeeeeeeeee_____________"
             }
         ]
