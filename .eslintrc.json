@@ -15,6 +15,8 @@
     "plugins": ["react", "@typescript-eslint"],
     "rules": {
         "react/jsx-indent": "off",
+        "no-plusplus":"off",
+        "max-len":"off",
         "no-use-before-define": "off",
         "@typescript-eslint/no-use-before-define": ["error"],
         "react/jsx-filename-extension": ["warn", { "extensions": [".tsx"] }],
