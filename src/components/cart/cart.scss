@@ -1,0 +1,24 @@
+.booking-bar{
+  z-index: 1000;
+  bottom: 0;
+  position: fixed;
+  background: white;
+  box-shadow: 0 0 10px 0 rgba(0,0,0,.5);
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+
+  h5
+  {
+      font-weight: bold;
+  }
+
+  .booking-summary{
+    padding: 10px;
+  }
+
+  .book-btn{
+    border-radius: 0%;
+    min-width: 10%;
+  }
+}

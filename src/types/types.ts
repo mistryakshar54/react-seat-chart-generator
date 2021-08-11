@@ -1,3 +1,4 @@
+/* eslint-disable no-unused-vars */
 export type SeatChartJson = {
     sectionTitle : string,
     seatPrice : number,
@@ -38,3 +39,14 @@ export const seatGap : SeatItem = {
   status: 'unavailable',
   type: 'gap',
 };
+
+export type CartItem = {
+  selectedSeats : string[],
+  totalAmount : number,
+}
+
+export interface CartContextType {
+    cartData : CartItem;
+    selectSeat(seat : SeatItem): void;
+    unSelectSeat : (seat : SeatItem) => void;
+}

@@ -1,4 +1,5 @@
 import React from 'react';
+import CartComponent from '../cart/cart';
 import SeatChartComponent from '../seatchart/seatchart';
 import './layout.scss';
 
@@ -8,6 +9,7 @@ const Layout: React.FC = () => {
         <div className="seatChartLayout">
             <h1>{title}</h1>
             <SeatChartComponent restrictSelectionForSection={[]} />
+            <CartComponent />
         </div>
   );
 };
