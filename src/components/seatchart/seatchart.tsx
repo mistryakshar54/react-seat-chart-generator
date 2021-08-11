@@ -5,15 +5,17 @@ import { buildSeatChart } from '../../utils/seatchartUtils';
 import './seatchart.scss';
 import SeatSection from './seatSection/seatSection';
 
+// TODO : Future support to hide show section labels
+//       and restrict for certain section. For ex allow secletion of only section having Row A,B,C etc..
 interface SeatChartProps {
     showSectionLabels? : boolean;
     restrictSelectionForSection : string[];
 }
 
-const SeatChartComponent: React.FC<SeatChartProps> = (props) => {
-  const bookedSeats = 'AA_1,AA_2,AA_3,W_1,W_2';
+const bookedSeats = 'AA_1,AA_2,AA_3,W_1,W_2';
+const SeatChartComponent: React.FC<SeatChartProps> = () => {
   const data : ProcessedSeatLayout[] = buildSeatChart(seatChartJson, bookedSeats);
-  console.log('data', data, props);
+
   return (
       <div className="seat-container">
           {

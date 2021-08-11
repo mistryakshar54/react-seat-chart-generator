@@ -1,7 +1,6 @@
 import React, { useContext } from 'react';
 import { Badge, Button } from 'react-bootstrap';
 import { CartContext } from '../../context/CartContext';
-// import { CartContextType } from '../../types/types';
 import './cart.scss';
 
 const CartComponent : React.FC = () => {

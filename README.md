@@ -1,46 +1,87 @@
-# Getting Started with Create React App
+# Seat-Chart-Generator
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+Seat-Chart-Generator is a seat chart app made in React, an inspiration from  [jQuery Seat Charts](https://github.com/mateuszmarkowski/jQuery-Seat-Charts) and a react version of my [ previous library created in Angluar 6 ](https://github.com/mistryakshar54/angular-seat-charts)
 
-## Available Scripts
+<!-- ## Demo Link
+[Bus Seat Layout](https://stackblitz.com/edit/bus-seat-chart-layout?file=src/app/app.component.ts) \
+[Hall/Theatere Layout](https://stackblitz.com/edit/hall-seat-chart-layout?file=src/app/app.component.ts) -->
+## Dependencies 
+[Bootstrap](https://getbootstrap.com/) \
+[React-bootstrap](https://react-bootstrap.github.io/)
 
-In the project directory, you can run:
+## Basic Setup Example
+### **Generating the seats**
 
-### `yarn start`
+```
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
+//Sample JSON for seatConfig
+    
+    {
+        "sectionTitle": "W-Z", //Title of your section
+        "seatPrice": 1500,     // Price of all the rows in this section
+        "seatMap": [
+            {
+                "seatLabel": "Z",
+                "layout": "________________eeeeeeeeeeeeeeeeeeeeeeeeee_____________________" //Can be any character
+            },
+            {
+                "seatLabel": "Y",
+                "layout": "_______________eeeeeeeeeeeeee_eeeeeeeeeeeeee___________________"
+            },
+            {
+                "seatLabel": "X",
+                "layout": "___________ee__eeeeeeeeeeeeee_eeeeeeeeeeeeee__eee______________"
+            },
+            {
+                "seatLabel": "W",
+                "layout": "___________ee__eeeeeeeeeeeeee_eeeeeeeeeeeeeee_eee______________"
+            }
+        ]
+    }
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
+```
 
-### `yarn test`
+### **"seatMap" : []**
+The array that contains the "seatLabel" for each row and the corresponding layout for that row is defined in the "layout" property.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### **"layout" : "__eeeeee__"**
 
-### `yarn build`
+A seat is defined using 'e' or any other character and a space is defined using '_' character in the layout property. 
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+### **"seat_price" : 1500**
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Defines the price for each "seatMap[]".
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+## **Generate the seat layout**
+Pass the configured **seatConfig** JSON to the processSeatChart() function.
+```
+this.seatConfig = [
+      {
+        "seat_price": 250,
+        "seat_map": [
+          {
+            "seat_label": "1",
+            "layout": "g_____"
+          },
+          {
+            "seat_label": "2",
+            "layout": "gg__gg"
+          }
+        ]
+      }
+    ];    
+    this.processSeatChart(this.seatConfig);
+```
+ 
+## **Block Seats**
+Want to block seats beforehand?
+Pass in a string of comma separated seat-ids to bookedSeats variable in `SeatCart.tsx` component.
+```bookedSeats
+    const bookedSeats = 'AA_1,AA_2,AA_3,W_1,W_2';
+```
 
-### `yarn eject`
+## Contributing
+Pull requests are welcome. For major changes, please open an issue first to discuss what you would like to change.
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
-
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
-
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
-
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
+## License
+[MIT](https://choosealicense.com/licenses/mit/)
